@@ -14,20 +14,22 @@ import ListingsScreen from './screens/ListingsScreen';
 import AppTextInput from './components/AppTextInput';
 import Switch from './components/Switch';
 
+import LoginScreen from './screens/LoginScreen';
+
 export default class App extends React.Component {
   render() {
     return (
       // <View style={styles.mainPage}>
-      //   {/* <AppButton title="Login" color="primary" op={()=>{
+      //   <AppButton title="Login" color="primary" op={()=>{
       //     console.log('Touched');
       //   }}>
 
-      //   </AppButton>
-      //   <AppButton title="Register" color="secondary" op={()=>{
-      //     console.log('Registered');
-      //   }}>
+      // //   </AppButton>
+        // <AppButton title="Register" color="secondary" op={()=>{
+        //   console.log('Registered');
+        // }}>
 
-      //   </AppButton> */}
+        // </AppButton> */}
 
       //   {/* <View style={styles.cardView}>
       //     <Card
@@ -51,10 +53,11 @@ export default class App extends React.Component {
 
       // <AccountScreen/>
       // <ListingsScreen/>
-      <Screen>
-        {/* <AppTextInput placeholder="Username" icon="email"/> */}
-        <Switch/>
-      </Screen>
+      // <Screen>
+      //   {/* <AppTextInput placeholder="Username" icon="email"/> */}
+      //   <Switch/>
+      // </Screen>
+      <LoginScreen/>
     );
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, StyleSheet, View } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
-import colors from '../config/colors';
+//import colors from '../config/colors';
 
 export default function ViewImageScreen(props) {
     return(

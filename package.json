@@ -13,12 +13,14 @@
     "@ant-design/icons": "^4.2.1",
     "@material-ui/icons": "^4.9.1",
     "elements": "^0.6.0",
+    "formik": "^2.1.5",
     "pod": "0.9.0",
     "react": "16.13.1",
     "react-native": "^0.63.1",
     "react-native-gesture-handler": "^1.7.0",
     "react-native-pod": "^1.12.1",
-    "react-native-vector-icons": "^7.0.0"
+    "react-native-vector-icons": "^7.0.0",
+    "yup": "^0.29.3"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
